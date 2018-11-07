@@ -1,0 +1,751 @@
+<!DOCTYPE html>
+<html lang="en" xmlns="http://www.w3.org/1999/xhtml" xmlns:fb="http://ogp.me/ns/fb#" xmlns:og="http://ogp.me/ns#" class=" ext-strict">
+    <head>
+        <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <meta name="description" content="">
+        <meta name="author" content="">
+        <link rel="icon" href="https://getbootstrap.com/docs/3.3/favicon.ico">
+        <!-- Bootstrap core CSS -->
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+        <!-- IE10 viewport hack for Surface/desktop Windows 8 bug -->
+        <link href="../Bootstrap Starter/Starter Template for Bootstrap_files/ie10-viewport-bug-workaround.css" rel="stylesheet">
+        <!-- CCRZ stylesheet -->
+        <link rel="stylesheet" type="text/css" href="./Tiered Pricing for Subscriptions_files/ccrz-libs.min.css">
+        <!-- Font Awesome stylesheet -->
+        <link rel="stylesheet" type="text/css" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+        <style type="text/css">a#link-to-fond:hover{background-color:#fff;color:#4e80ff!important}a#link-to-fond:visited{color:#fff}#close-fond-bar:hover{cursor:pointer}#fond-bar{display:block;height:50px;max-height:60px;min-height:10px;background-color:#147bd1;padding:5px 5px 5px 10px;position:fixed;left:0;top:42px;margin-top:-60px;width:100%;z-index:999999;text-align:center;-webkit-box-sizing:initial;box-sizing:initial}#fond-bar-container{display:inline-block;width:98%;margin:0;position:relative;line-height:32px;max-height:32px}#fond-text{position:relative;color:#fff!important;font-size:16px!important;text-align:centecenter!important;margin:0!important;float:left!important;text-shadow:none!important;padding:4px!important;line-height:60px;vertical-align:middle;width:100%}#fond-text,#link-to-fond{font-family:walsheim,Arial!important}#link-to-fond{color:#fff;font-size:14px!important;font-weight:400!important;border:1px solid #fff;padding:6px 20px;border-radius:2px;text-decoration:none!important;margin-left:12px}#fond-small{width:24px;height:24px;margin-right:8px;margin-top:-2px;vertical-align:middle;display:inline!important}#close-fond-bar{position:absolute;top:26px;right:5px;width:14px;z-index:999999;font-family:Arial;font-size:12px}</style>
+    </head>
+    <body>
+        <div>
+            <header>
+                <div class="header">
+                    <div class="navbar-inverse">
+                        <div class="container">
+                            <div class="row">
+                                <small>
+                                    <div class="col-md-4 col-xs-12">
+                                        <p class="header-spacer visible-md-*"></p>
+                                        <div class="navbar-header pull-left">
+                                            <span class="misc-function">
+                                                <ul class="list-inline navbar-nav">
+                                                    <li class="effAccountt" data-toggle="modal" data-target="#effAccounts">
+                                                        <a href="#">Central Perc Coffee (CPC) - San Jose<span class="launchSel cc_launch_sel" aria-hidden="true"></span></a>
+                                                    </li>
+                                                </ul>
+                                                <div class="modal fade" id="effAccounts" tabindex="-1" role="dialog" aria-labelledby="effAccountsLabel">
+                                                    <div class="modal-dialog" role="document">
+                                                        <div class="modal-content">
+                                                            <div class="modal-header">
+                                                                <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">×</span></button>
+                                                                <h4 class="modal-title" id="effAccountsLabel">Effective Account Selection</h4>
+                                                            </div>
+                                                            <div class="modal-body">
+                                                                <div class="table-responsive">
+                                                                    <table class="table table-hover">
+                                                                        <thead>
+                                                                            <tr>
+                                                                                <th>Name</th>
+                                                                                <th>Account Number</th>
+                                                                                <th>Address</th>
+                                                                                <th></th>
+                                                                            </tr>
+                                                                        </thead>
+                                                                        <tbody>
+                                                                            <tr>
+                                                                                <td>Atlantic Coffee</td>
+                                                                                <td>AC01</td>
+                                                                                <td>180 Clarendon Street<br>Boston, MA 02116<br></td>
+                                                                                <td><a href="#"><i class="pickSel pickAccount fa fa-chevron-right" data-id="001B000000p9HY9IAM" aria-hidden="true"></i><span class="sr-only">Select Account</span></a></td>
+                                                                            </tr>
+                                                                            <tr>
+                                                                                <td>Pacific Coffee</td>
+                                                                                <td>PC01</td>
+                                                                                <td>100 3rd Street<br>Santa Monica, CA 90401<br></td>
+                                                                                <td><a href="#"><i class="pickSel pickAccount fa fa-chevron-right" data-id="001B000000o2qBFIAY" aria-hidden="true"></i><span class="sr-only">Select Account</span></a></td>
+                                                                            </tr>
+                                                                            <tr>
+                                                                                <td>Central Perc Coffee</td>
+                                                                                <td>CPC</td>
+                                                                                <td>178 San Jose Ave<br>San Jose, CA 95125<br>US</td>
+                                                                                <td><a href="#"><i class="pickSel pickAccount cc_pick_account fa fa-chevron-right" data-id="001B000000o2qB2IAI" aria-hidden="true"></i><span class="sr-only">Select Account</span></a></td>
+                                                                            </tr>
+                                                                        </tbody>
+                                                                    </table>
+                                                                </div>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </span>
+                                            <span class="lssec">
+                                                <ul class="list-inline navbar-nav">
+                                                    <li><a class="changeLocale" href="#">Locale: en_US </a></li>
+                                                </ul>
+                                                <div id="modalSecLocale"></div>
+                                            </span>
+                                        </div>
+                                    </div>
+                                    <div class="col-md-5 col-xs-12">
+                                        <p class="header-spacer visible-md-*"></p>
+                                        <div class="navbar-header pull-right">
+                                            <ul class="list-inline navbar-nav">
+                                                <li><a href="#" id="goToAccount"><i class="fa fa-user" aria-hidden="true"></i><span>&nbsp;My Account</span></a></li>
+                                                <li><a href="#" id="cartHeader" class="chead cartHeaderLink">
+                                                    <i class="fa fa-shopping-cart" aria-hidden="true"></i>
+                                                    <span>My Cart: 1 item,&nbsp;$25.00</span>
+                                                    </a>
+                                                </li>
+                                                <li class="loginoutsec">
+                                                    <a href="#" class="doLogout"><i class="fa fa-pencil" aria-hidden="true"></i>&nbsp;Logout Lauren Boyle</a>
+                                                </li>
+                                            </ul>
+                                        </div>
+                                    </div>
+                                    <div class="col-md-3 col-xs-12 pull-right">
+                                        <ul class="nav">
+                                            <li>
+                                                <div class="search_form">
+                                                    <div class="navbar-form" role="search">
+                                                        <div class="input-group">
+                                                            <input id="searchText" type="text" class="form-control search_input ui-autocomplete-input" placeholder="Search Products" title="Product search, at least 2 characters are required" data-trigger="focus" autocomplete="off">
+                                                            <span class="input-group-btn">
+                                                            <button id="doSearch" class="btn btn-default search_button" type="Submit" data-original-title="" title=""><i class="fa fa-search" aria-hidden="true"></i></button>
+                                                            </span>
+                                                        </div>
+                                                    </div>
+                                                    <span data-trigger="manual" data-placement="bottom" data-content="Product search, at least 2 characters are required"></span>
+                                                    <div class="searchTopBarErrorMessage searchBoxWidgetError"></div>
+                                                </div>
+                                            </li>
+                                        </ul>
+                                    </div>
+                                </small>
+                            </div>
+                        </div>
+                    </div>
+                    <a href="#" id="logoUrl">
+                        <div class="center-block"></div>
+                    </a>
+                </div>
+                <div class="menu_container">
+                    <div id="secnav">
+                        <nav class="navbar navbar-default navbar-static-top">
+                            <div class="container">
+                                <div class="navbar-header">
+                                    <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar" aria-expanded="false" aria-controls="navbar">
+                                        <span class="sr-only">Toggle navigation</span>
+                                        <!--***********-->
+                                        <span class="icon-bar"></span>
+                                        <span class="icon-bar"></span>
+                                        <span class="icon-bar"></span>
+                                    </button>
+                                </div>
+                                <div id="navbar" class="navbar-collapse collapse">
+                                    <ul class="nav navbar-nav cc_navbar-nav">
+                                        <li><a href="#" id="phoneLogo" class="cc_phone_logo"><span class="sr-only">Home</span><i class="fa fa-home" aria-hidden="true"></i></a></li>
+                                        <li class="dropdown cc_dropdown"><a class="menuTypeURL cc_menu_type_url" href="#" data-href="ccrz__HomePage" data-menuid="1">Home</a></li>
+                                        <li class="dropdown cc_dropdown">
+                                            <a href="#" class="dropdown-toggle cc_dropdown_toggle" data-toggle="dropdown" data-menuid="2" role="button" aria-haspopup="true" aria-expanded="false">Products<span class="caret"></span></a>
+                                            <ul class="dropdown-menu cc_dropdown-menu">
+                                                <li><a href="#" class="cc_category" data-category="">ALL PRODUCTS</a></li>
+                                                <li><a href="#" class="cc_category" data-category="">ACCESSORIES</a></li>
+                                                <li><a href="#" class="cc_category" data-category="">COFFEE</a></li>
+                                                <li><a href="#" class="cc_category" data-category="">COFFEE MACHINE</a></li>
+                                                <li><a href="#" class="cc_category" data-category="">ESPRESSO</a></li>
+                                                <li><a href="#" class="cc_category" data-category="">GRINDERS</a></li>
+                                                <li><a href="#" class="cc_category" data-category="">USAGE</a></li>
+                                            </ul>
+                                        </li>
+                                        <li class="dropdown cc_dropdown"><a class="menuTypeURL cc_menu_type_url" href="#" data-href="ccrz__CCPage?pagekey=contactus" data-menuid="3">Contact Us</a></li>
+                                    </ul>
+                                </div>
+                                <!--***************-->
+                            </div>
+                        </nav>
+                    </div>
+                </div>
+            </header>
+            <div class="home_slider cc_home_slider">
+                <span id="ProductDetails:cc_tmpl_TwoColRightRD:cc_tmpl_Storefront:j_id87">
+                    <div id="ProductDetails:cc_tmpl_TwoColRightRD:cc_tmpl_Storefront:j_id87:cc_Hero:j_id88" class="main_page_title productdetails en_US"></div>
+                </span>
+                <div class="container cc_breadrumb_container" id="breadcrumb_desktop_container">
+                    <ol class="breadcrumb cc_breadcrumb">
+                        <li class="cc_breadcrumb_item">
+                            <a href="https://win19ss-test1-165c68767ee-165fd4991b1.force.com/CapStore/ccrz__HomePage?cartID=f30401be-c9bc-4b85-a7fe-04ba2bf6d331&amp;portalUser=&amp;store=&amp;effectiveAccount=001B000000o2qB2IAI&amp;cclcl=en_US" title="Go to Store Home Page">Home</a>
+                        </li>
+                        <li class="cc_breadcrumb_item">
+                            <a href="javascript:void(0);" onclick="CCRZ.goToPLP(this)" class="undefined" data-category="{&quot;category&quot;:{&quot;name&quot;:&quot;All Products&quot;,&quot;sfid&quot;:&quot;a0MB00000019LPcMAM&quot;},&quot;friendlyUrl&quot;:&quot;/Capricorn&quot;}">All Products</a>
+                        </li>
+                        <li class="cc_breadcrumb_item">
+                            <a href="https://win19ss-test1-165c68767ee-165fd4991b1.force.com/CapStore/ccrz__ProductDetails?viewState=DetailView&amp;cartID=f30401be-c9bc-4b85-a7fe-04ba2bf6d331&amp;portalUser=&amp;store=&amp;effectiveAccount=001B000000o2qB2IAI&amp;cclcl=en_US&amp;sku=GDG-1" title="">Glass Drip Coffee Maker</a>
+                        </li>
+                    </ol>
+                </div>
+            </div>
+            <div class="contentBody cc_content_body">
+                <div class="container cc_main_container cc_tmpl_TwoColRightRD">
+                    <div class="row">
+                        <div class="col-md-3 cc_left_col">
+                            <div class="effleft"></div>
+                            <div class="search-box-RightNav">
+                                <div class="panel panel-default cc_panel cc_product_search_panel">
+                                    <div class="panel-heading cc_heading">
+                                        <h3 class="panel-title cc_title">Product Search</h3>
+                                    </div>
+                                    <div class="panel-body cc_body">
+                                        <p class="cc_intro_text">PlaceholderText</p>
+                                        <div class="input-group form-group">
+                                            <input name="sidebarSearchText" type="text" class="form-control search_input sidebarSearchText cc_sidebar_search_text ui-autocomplete-input" placeholder="Search Products" title="Product search, at least 2 characters are required" autocomplete="off">
+                                            <div class="input-group-btn search_button">
+                                                <button name="sidebarSearchButton" class="btn btn-default sidebarSearchButton cc_sidebar_search_button" type="submit" data-container="body" data-toggle="popover" data-placement="bottom" data-content="Product search, at least 2 characters are required">
+                                                    <i class="fa fa-search" aria-hidden="true"></i> <!--*****************************-->
+                                                </button>
+                                            </div>
+                                        </div>
+                                        <div class="searchBoxError cc_searchbox_error" role="alert" style="display:none;">
+                                            <i class="fa fa-exclamation-circle" aria-hidden="true"></i>
+                                            <span class="sr-only">Error:</span>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div id="MyAccount_navSection"></div>
+                            <div class="minicart">
+                                <div class="panel panel-default MiniCart cc_mini_cart">
+                                    <div class="panel-heading cc_heading">
+                                        <h3 class="panel-title cc_title">My Cart
+                                            <span class="pull-right">
+                                            <span class="icon-toggle cc_filter_icon" role="button" data-toggle="collapse" data-target="#collapseMiniCart" aria-expanded="true" aria-controls="collapseMiniCart">
+                                            <i class="fa fa-caret-down" aria-hidden="true"></i>
+                                            </span>
+                                            </span>
+                                        </h3>
+                                    </div>
+                                    <div id="collapseMiniCart" class="panel-collapse collapse in">
+                                        <div class="panel-body cc_body">
+                                            <div class="my_cart mini_cart cc_mini_cart">
+                                                <div class="row cc_item_heading">
+                                                    <div class="col-xs-8 cc_product">Product</div>
+                                                    <div class="col-xs-4 pull-right cc_qty">Quantity</div>
+                                                </div>
+                                                <div class="row cc_items">
+                                                    <div class="col-xs-8 cc_prod_name">
+                                                        <a href="javascript:void(0);" onclick="CCRZ.goToPDP(this)" class="small cc_product_name_link" data-product="{&quot;name&quot;:&quot;Stainless Steel Thermal Carafe&quot;,&quot;SKU&quot;:&quot;SSTC-1&quot;}" data-id="SSTC-1">Stainless Steel Thermal Carafe</a>
+                                                    </div>
+                                                    <div class="col-xs-4 cc_prod_qty">
+                                                        <div id="CartItemDetail-Qty-View" class="quantity cc_quantity">
+                                                            <label for="qtyInput_a0HB00000026H0YMAU" class="sr-only">Enter Quantity</label>
+                                                            <input id="qtyInput_a0HB00000026H0YMAU" type="text" name="qty" class="form-control input-sm input-text entry cc_input_sm" data-id="a0HB00000026H0YMAU" value="1" maxlength="7">
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                                <div class="row cc_error_row">
+                                                    <div class="col-xs-12 cc_error_col">
+                                                        <div class="error-a0HB00000026H0YMAU miniCartError cc_mini_cart_error" style="display: none"></div>
+                                                    </div>
+                                                </div>
+                                                <hr>
+                                                <div class="summary cc_summary">
+                                                    <div class="row cc_row_total">
+                                                        <div class="col-xs-6 cc_total_qty">Total QTY</div>
+                                                        <div class="col-xs-6 cc_total_price">Total Price</div>
+                                                    </div>
+                                                    <div class="row cc_row_sum">
+                                                        <div class="col-xs-6 cc_total_items"><span class="cc_cart_item_count">1 ITEM(S)</span></div>
+                                                        <div class="col-xs-6 cc_subtotal"><span class="cc_subtotal">$25.00</span></div>
+                                                    </div>
+                                                    <hr>
+                                                    <div class="form-group text-center cc_form_group">
+                                                        <button class="btn btn-default btn-sm updateCartButton cc_update_cart_button" type="submit">Update</button>
+                                                        <button class="btn btn-default btn-sm loggedInAction cc_logged_in_action" type="submit">View Cart</button>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                            <div id="modalSec"></div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="quick-order"></div>
+                            <div id="categories-right-nav">
+                                <div class="panel-group cc_categories_side_container" id="category-accordion" role="tablist" aria-multiselectable="true">
+                                    <div class="panel panel-default cc_panel cc_category_tree">
+                                        <div class="panel-heading cc_heading" role="tab" id="a0MB00000019LPcMAM">
+                                            <h5 class="panel-title cc_title">
+                                                <a href="javascript:void(0);" onclick="CCRZ.goToPLP(this)" class="cc_cat_name" data-category="{&quot;name&quot;:&quot;All Products&quot;,&quot;productCount&quot;:37,&quot;parentCategory&quot;:&quot;a0MB00000019LPiMAM&quot;,&quot;sequence&quot;:100,&quot;SEOId&quot;:&quot;Capricorn&quot;,&quot;ownerId&quot;:&quot;005B00000055uTaIAI&quot;,&quot;categoryID&quot;:&quot;Cat12&quot;,&quot;sfid&quot;:&quot;a0MB00000019LPcMAM&quot;}">All Products</a>
+                                            </h5>
+                                        </div>
+                                        <!--*******************-->
+                                    </div>
+                                    <!--***********-->
+                                    <div class="panel panel-default cc_panel cc_category_tree">
+                                        <div class="panel-heading cc_heading" role="tab" id="a0MB00000019LPXMA2">
+                                            <h5 class="panel-title cc_title">
+                                                <a href="javascript:void(0);" onclick="CCRZ.goToPLP(this)" class="cc_cat_name" data-category="{&quot;name&quot;:&quot;Accessories&quot;,&quot;productCount&quot;:8,&quot;parentCategory&quot;:&quot;a0MB00000019LPiMAM&quot;,&quot;sequence&quot;:200,&quot;SEOId&quot;:&quot;Accessories&quot;,&quot;ownerId&quot;:&quot;005B00000055uTaIAI&quot;,&quot;categoryID&quot;:&quot;Cat4&quot;,&quot;sfid&quot;:&quot;a0MB00000019LPXMA2&quot;}">Accessories</a>
+                                            </h5>
+                                        </div>
+                                        <!--*******************-->
+                                    </div>
+                                    <!--***********-->
+                                    <div class="panel panel-default cc_panel cc_category_tree">
+                                        <div class="panel-heading cc_heading" role="tab" id="a0MB00000019LPaMAM">
+                                            <h5 class="panel-title cc_title">
+                                                <a href="javascript:void(0);" onclick="CCRZ.goToPLP(this)" class="cc_cat_name" data-category="{&quot;children&quot;:[{&quot;name&quot;:&quot;Dark&quot;,&quot;longDesc&quot;:&quot;Dark&quot;,&quot;shortDesc&quot;:&quot;Dark&quot;,&quot;productCount&quot;:5,&quot;parentCategory&quot;:&quot;a0MB00000019LPaMAM&quot;,&quot;sequence&quot;:500,&quot;SEOId&quot;:&quot;Dark&quot;,&quot;ownerId&quot;:&quot;005B00000055uTaIAI&quot;,&quot;categoryID&quot;:&quot;Cat8&quot;,&quot;sfid&quot;:&quot;a0MB00000019LPgMAM&quot;},{&quot;name&quot;:&quot;Medium&quot;,&quot;longDesc&quot;:&quot;Medium&quot;,&quot;shortDesc&quot;:&quot;Medium&quot;,&quot;productCount&quot;:5,&quot;parentCategory&quot;:&quot;a0MB00000019LPaMAM&quot;,&quot;sequence&quot;:500,&quot;SEOId&quot;:&quot;Medium&quot;,&quot;ownerId&quot;:&quot;005B00000055uTaIAI&quot;,&quot;categoryID&quot;:&quot;Cat9&quot;,&quot;sfid&quot;:&quot;a0MB00000019LPhMAM&quot;}],&quot;name&quot;:&quot;Coffee&quot;,&quot;productCount&quot;:10,&quot;parentCategory&quot;:&quot;a0MB00000019LPiMAM&quot;,&quot;sequence&quot;:300,&quot;SEOId&quot;:&quot;Coffee&quot;,&quot;ownerId&quot;:&quot;005B00000055uTaIAI&quot;,&quot;categoryID&quot;:&quot;Cat3&quot;,&quot;sfid&quot;:&quot;a0MB00000019LPaMAM&quot;}">Coffee</a>
+                                                <span class="pull-right cc_icon_area">
+                                                <span class="icon-toggle cc_icon_toggle" role="button" data-toggle="collapse" data-target="#collapse-a0MB00000019LPaMAM" aria-expanded="true" aria-controls="collapse-a0MB00000019LPaMAM">
+                                                <i class="fa fa-caret-down" aria-hidden="true"></i>
+                                                </span>
+                                                </span>
+                                            </h5>
+                                        </div>
+                                        <!--*******************-->
+                                        <div id="collapse-a0MB00000019LPaMAM" class="panel-collapse collapse cc_collapse" role="tabpanel" aria-labelledby="heading-a0MB00000019LPaMAM">
+                                            <div class="panel-body cc_body">
+                                                <div class="panel-heading cc_heading" role="tab" id="a0MB00000019LPgMAM">
+                                                    <h5 class="panel-title cc_title"><a href="javascript:void(0);" onclick="CCRZ.goToPLP(this)" class="cc_cat_name" data-category="{&quot;name&quot;:&quot;Dark&quot;,&quot;productCount&quot;:5,&quot;parentCategory&quot;:&quot;a0MB00000019LPaMAM&quot;,&quot;sequence&quot;:500,&quot;SEOId&quot;:&quot;Dark&quot;,&quot;ownerId&quot;:&quot;005B00000055uTaIAI&quot;,&quot;categoryID&quot;:&quot;Cat8&quot;,&quot;sfid&quot;:&quot;a0MB00000019LPgMAM&quot;}">Dark</a></h5>
+                                                </div>
+                                                <!--*******************-->
+                                                <div class="panel-heading cc_heading" role="tab" id="a0MB00000019LPhMAM">
+                                                    <h5 class="panel-title cc_title"><a href="javascript:void(0);" onclick="CCRZ.goToPLP(this)" class="cc_cat_name" data-category="{&quot;name&quot;:&quot;Medium&quot;,&quot;productCount&quot;:5,&quot;parentCategory&quot;:&quot;a0MB00000019LPaMAM&quot;,&quot;sequence&quot;:500,&quot;SEOId&quot;:&quot;Medium&quot;,&quot;ownerId&quot;:&quot;005B00000055uTaIAI&quot;,&quot;categoryID&quot;:&quot;Cat9&quot;,&quot;sfid&quot;:&quot;a0MB00000019LPhMAM&quot;}">Medium</a></h5>
+                                                </div>
+                                                <!--*******************-->
+                                            </div>
+                                            <!--****************-->
+                                        </div>
+                                        <!--**************-->
+                                    </div>
+                                    <!--***********-->
+                                    <div class="panel panel-default cc_panel cc_category_tree">
+                                        <div class="panel-heading cc_heading" role="tab" id="a0MB00000019LPbMAM">
+                                            <h5 class="panel-title cc_title">
+                                                <a href="javascript:void(0);" onclick="CCRZ.goToPLP(this)" class="cc_cat_name" data-category="{&quot;name&quot;:&quot;Coffee Machine&quot;,&quot;productCount&quot;:8,&quot;parentCategory&quot;:&quot;a0MB00000019LPiMAM&quot;,&quot;sequence&quot;:400,&quot;SEOId&quot;:&quot;Machine&quot;,&quot;ownerId&quot;:&quot;005B00000055uTaIAI&quot;,&quot;categoryID&quot;:&quot;Cat10&quot;,&quot;sfid&quot;:&quot;a0MB00000019LPbMAM&quot;}">Coffee Machine</a>
+                                            </h5>
+                                        </div>
+                                        <!--*******************-->
+                                    </div>
+                                    <!--***********-->
+                                    <div class="panel panel-default cc_panel cc_category_tree">
+                                        <div class="panel-heading cc_heading" role="tab" id="a0MB00000019LPZMA2">
+                                            <h5 class="panel-title cc_title">
+                                                <a href="javascript:void(0);" onclick="CCRZ.goToPLP(this)" class="cc_cat_name" data-category="{&quot;children&quot;:[{&quot;name&quot;:&quot;Advanced&quot;,&quot;shortDesc&quot;:&quot;Advanced Espresso Machines&quot;,&quot;productCount&quot;:3,&quot;parentCategory&quot;:&quot;a0MB00000019LPZMA2&quot;,&quot;sequence&quot;:500,&quot;ownerId&quot;:&quot;005B00000055uTaIAI&quot;,&quot;categoryID&quot;:&quot;adv&quot;,&quot;sfid&quot;:&quot;a0MB00000019LPkMAM&quot;}],&quot;name&quot;:&quot;Espresso&quot;,&quot;productCount&quot;:8,&quot;parentCategory&quot;:&quot;a0MB00000019LPiMAM&quot;,&quot;sequence&quot;:500,&quot;SEOId&quot;:&quot;Espresso&quot;,&quot;ownerId&quot;:&quot;005B00000055uTaIAI&quot;,&quot;categoryID&quot;:&quot;Cat6&quot;,&quot;sfid&quot;:&quot;a0MB00000019LPZMA2&quot;}">Espresso</a>
+                                                <span class="pull-right cc_icon_area">
+                                                <span class="icon-toggle cc_icon_toggle" role="button" data-toggle="collapse" data-target="#collapse-a0MB00000019LPZMA2" aria-expanded="true" aria-controls="collapse-a0MB00000019LPZMA2">
+                                                <i class="fa fa-caret-down" aria-hidden="true"></i>
+                                                </span>
+                                                </span>
+                                            </h5>
+                                        </div>
+                                        <!--*******************-->
+                                        <div id="collapse-a0MB00000019LPZMA2" class="panel-collapse collapse cc_collapse" role="tabpanel" aria-labelledby="heading-a0MB00000019LPZMA2">
+                                            <div class="panel-body cc_body">
+                                                <div class="panel-heading cc_heading" role="tab" id="a0MB00000019LPkMAM">
+                                                    <h5 class="panel-title cc_title"><a href="javascript:void(0);" onclick="CCRZ.goToPLP(this)" class="cc_cat_name" data-category="{&quot;name&quot;:&quot;Advanced&quot;,&quot;productCount&quot;:3,&quot;parentCategory&quot;:&quot;a0MB00000019LPZMA2&quot;,&quot;sequence&quot;:500,&quot;ownerId&quot;:&quot;005B00000055uTaIAI&quot;,&quot;categoryID&quot;:&quot;adv&quot;,&quot;sfid&quot;:&quot;a0MB00000019LPkMAM&quot;}">Advanced</a></h5>
+                                                </div>
+                                                <!--*******************-->
+                                            </div>
+                                            <!--****************-->
+                                        </div>
+                                        <!--**************-->
+                                    </div>
+                                    <!--***********-->
+                                    <div class="panel panel-default cc_panel cc_category_tree">
+                                        <div class="panel-heading cc_heading" role="tab" id="a0MB00000019LPYMA2">
+                                            <h5 class="panel-title cc_title">
+                                                <a href="javascript:void(0);" onclick="CCRZ.goToPLP(this)" class="cc_cat_name" data-category="{&quot;name&quot;:&quot;Grinders&quot;,&quot;productCount&quot;:3,&quot;parentCategory&quot;:&quot;a0MB00000019LPiMAM&quot;,&quot;sequence&quot;:600,&quot;SEOId&quot;:&quot;Grinders&quot;,&quot;ownerId&quot;:&quot;005B00000055uTaIAI&quot;,&quot;categoryID&quot;:&quot;Cat5&quot;,&quot;sfid&quot;:&quot;a0MB00000019LPYMA2&quot;}">Grinders</a>
+                                            </h5>
+                                        </div>
+                                        <!--*******************-->
+                                    </div>
+                                    <!--***********-->
+                                    <div class="panel panel-default cc_panel cc_category_tree">
+                                        <div class="panel-heading cc_heading" role="tab" id="a0MB00000019LPjMAM">
+                                            <h5 class="panel-title cc_title">
+                                                <a href="javascript:void(0);" onclick="CCRZ.goToPLP(this)" class="cc_cat_name" data-category="{&quot;children&quot;:[{&quot;name&quot;:&quot;Commercial&quot;,&quot;longDesc&quot;:&quot;Commercial&quot;,&quot;shortDesc&quot;:&quot;Commercial&quot;,&quot;productCount&quot;:7,&quot;parentCategory&quot;:&quot;a0MB00000019LPjMAM&quot;,&quot;sequence&quot;:500,&quot;SEOId&quot;:&quot;Commercial&quot;,&quot;ownerId&quot;:&quot;005B00000055uTaIAI&quot;,&quot;categoryID&quot;:&quot;Cat7&quot;,&quot;sfid&quot;:&quot;a0MB00000019LPeMAM&quot;},{&quot;name&quot;:&quot;Industrial&quot;,&quot;longDesc&quot;:&quot;Industrial&quot;,&quot;shortDesc&quot;:&quot;Industrial&quot;,&quot;productCount&quot;:3,&quot;parentCategory&quot;:&quot;a0MB00000019LPjMAM&quot;,&quot;sequence&quot;:500,&quot;SEOId&quot;:&quot;Industrial&quot;,&quot;ownerId&quot;:&quot;005B00000055uTaIAI&quot;,&quot;categoryID&quot;:&quot;Cat15&quot;,&quot;sfid&quot;:&quot;a0MB00000019LPdMAM&quot;},{&quot;name&quot;:&quot;Residential&quot;,&quot;longDesc&quot;:&quot;Residential&quot;,&quot;shortDesc&quot;:&quot;Residential&quot;,&quot;productCount&quot;:6,&quot;parentCategory&quot;:&quot;a0MB00000019LPjMAM&quot;,&quot;sequence&quot;:500,&quot;SEOId&quot;:&quot;Residential&quot;,&quot;ownerId&quot;:&quot;005B00000055uTaIAI&quot;,&quot;categoryID&quot;:&quot;Cat11&quot;,&quot;sfid&quot;:&quot;a0MB00000019LPfMAM&quot;}],&quot;name&quot;:&quot;Usage&quot;,&quot;productCount&quot;:0,&quot;parentCategory&quot;:&quot;a0MB00000019LPiMAM&quot;,&quot;sequence&quot;:700,&quot;ownerId&quot;:&quot;005B00000055uTaIAI&quot;,&quot;categoryID&quot;:&quot;Cat2&quot;,&quot;sfid&quot;:&quot;a0MB00000019LPjMAM&quot;}">Usage</a>
+                                                <span class="pull-right cc_icon_area">
+                                                <span class="icon-toggle cc_icon_toggle" role="button" data-toggle="collapse" data-target="#collapse-a0MB00000019LPjMAM" aria-expanded="true" aria-controls="collapse-a0MB00000019LPjMAM">
+                                                <i class="fa fa-caret-down" aria-hidden="true"></i>
+                                                </span>
+                                                </span>
+                                            </h5>
+                                        </div>
+                                        <!--*******************-->
+                                        <div id="collapse-a0MB00000019LPjMAM" class="panel-collapse collapse cc_collapse" role="tabpanel" aria-labelledby="heading-a0MB00000019LPjMAM">
+                                            <div class="panel-body cc_body">
+                                                <div class="panel-heading cc_heading" role="tab" id="a0MB00000019LPeMAM">
+                                                    <h5 class="panel-title cc_title"><a href="javascript:void(0);" onclick="CCRZ.goToPLP(this)" class="cc_cat_name" data-category="{&quot;name&quot;:&quot;Commercial&quot;,&quot;productCount&quot;:7,&quot;parentCategory&quot;:&quot;a0MB00000019LPjMAM&quot;,&quot;sequence&quot;:500,&quot;SEOId&quot;:&quot;Commercial&quot;,&quot;ownerId&quot;:&quot;005B00000055uTaIAI&quot;,&quot;categoryID&quot;:&quot;Cat7&quot;,&quot;sfid&quot;:&quot;a0MB00000019LPeMAM&quot;}">Commercial</a></h5>
+                                                </div>
+                                                <!--*******************-->
+                                                <div class="panel-heading cc_heading" role="tab" id="a0MB00000019LPdMAM">
+                                                    <h5 class="panel-title cc_title"><a href="javascript:void(0);" onclick="CCRZ.goToPLP(this)" class="cc_cat_name" data-category="{&quot;name&quot;:&quot;Industrial&quot;,&quot;productCount&quot;:3,&quot;parentCategory&quot;:&quot;a0MB00000019LPjMAM&quot;,&quot;sequence&quot;:500,&quot;SEOId&quot;:&quot;Industrial&quot;,&quot;ownerId&quot;:&quot;005B00000055uTaIAI&quot;,&quot;categoryID&quot;:&quot;Cat15&quot;,&quot;sfid&quot;:&quot;a0MB00000019LPdMAM&quot;}">Industrial</a></h5>
+                                                </div>
+                                                <!--*******************-->
+                                                <div class="panel-heading cc_heading" role="tab" id="a0MB00000019LPfMAM">
+                                                    <h5 class="panel-title cc_title"><a href="javascript:void(0);" onclick="CCRZ.goToPLP(this)" class="cc_cat_name" data-category="{&quot;name&quot;:&quot;Residential&quot;,&quot;productCount&quot;:6,&quot;parentCategory&quot;:&quot;a0MB00000019LPjMAM&quot;,&quot;sequence&quot;:500,&quot;SEOId&quot;:&quot;Residential&quot;,&quot;ownerId&quot;:&quot;005B00000055uTaIAI&quot;,&quot;categoryID&quot;:&quot;Cat11&quot;,&quot;sfid&quot;:&quot;a0MB00000019LPfMAM&quot;}">Residential</a></h5>
+                                                </div>
+                                                <!--*******************-->
+                                            </div>
+                                            <!--****************-->
+                                        </div>
+                                        <!--**************-->
+                                    </div>
+                                    <!--***********-->
+                                </div>
+                                <!--*****************-->
+                            </div>
+                            <div class="filterContainer"></div>
+                            <div class="widgetSection"></div>
+                            <div class="promotion-box-RightNav"></div>
+                        </div>
+                        <div class="col-md-9 cc_main_content_col">
+                            <div class="effwig"></div>
+                            <div class="promotion-box-Banner">
+                                <div class="promo_container promo_banner_container"></div>
+                            </div>
+                            <div class="prodDetailContainer">
+                                <div class="panel panel-default product_detail_container product_type_standard phoneProductItem cc_panel cc_product_detail_container cc_product_type_standard">
+                                    <div class="panel-heading cc_heading">
+                                        <h3 class="panel-title cc_title">Glass Drip Coffee Maker</h3>
+                                    </div>
+                                    <div class="panel-body product_detail cc_body cc_product_detail">
+                                        <div class="messagingSection-Error" role="alert" style="display: none"></div>
+                                        <div class="messagingAction-Info" role="alert" style="display: none">
+                                            <button type="button" class="close cc_close" data-dismiss="alert" aria-label="Close"><span aria-hidden="true">×</span></button>
+                                        </div>
+                                        <div class="row">
+                                            <div class="col-md-5">
+                                                <div class="prod_media cc_prod_media">
+                                                    <div id="altImageModal" class="modal fade cc_alt_image_modal" tabindex="-1" role="dialog">
+                                                        <div class="modal-dialog cc_modal-dialg" role="document">
+                                                            <div class="modal-content cc_modal-content">
+                                                                <div class="modal-header cc_modal-header">
+                                                                    <button type="button" class="close cc_close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">×</span></button>
+                                                                    <h4 class="modal-title cc_modal-title" id="myModalLabel"></h4>
+                                                                </div>
+                                                                <div class="modal-body cc_modal-body">
+                                                                    <img class="modalImg cc_modal_img" src="https://win19ss-test1-165c68767ee-165fd4991b1.force.com/CapStore/ccrz__ProductDetails?viewState=DetailView&amp;cartID=f30401be-c9bc-4b85-a7fe-04ba2bf6d331&amp;portalUser=&amp;store=&amp;effectiveAccount=001B000000o2qB2IAI&amp;cclcl=en_US&amp;sku=GDG-1">
+                                                                    <p class="modalText cc_modal_text"></p>
+                                                                </div>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                    <div class="cc_product_detail_photo_container" id="photoContainer">
+                                                        <div class="row">
+                                                            <div class="col-md-12">
+                                                                <div class="cc_main_prod_image"><img class="mainProdImage prodDetail img-responsive" src="./Tiered Pricing for Subscriptions_files/10008723_TRC_Chemex_Side-1450x1015.jpg" alt="" data-id=""></div>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                            <div class="col-md-7">
+                                                <div class="product_detail_item wishFinder cc_wish_finder" data-sku="GDG-1">
+                                                    <h4 class="product_title cc_product_title">Glass Drip Coffee Maker</h4>
+                                                    <div class="sku cc_sku">
+                                                        <span class="cc_label">SKU</span>
+                                                        <span class="value cc_value">GDG-1</span>
+                                                    </div>
+                                                    <div class="shortDesc cc_short_desc">
+                                                        <p class="pblock cc_pblock">This pure glass, 8-cup coffeemaker to help you brew the perfect cup of coffee. It is made from non-porous Borosilicate glass, which will not absorb odors or chemical residues.</p>
+                                                    </div>
+                                                    <hr>
+                                                    <div class="row">
+                                                        <div class="col-md-12">
+                                                            <div class="price_block cc_price_block">
+                                                                <p class="baseprice cc_baseprice">
+                                                                    <span class="cc_label">List Price</span>
+                                                                    <span class="value cc_value">$30.00</span>
+                                                                </p>
+                                                                <p class="price cc_price">
+                                                                    <span class="cc_label">Price</span>
+                                                                    <span class="value cc_value cc_pricea1GB0000000KypwMAC">
+                                                                    $28.00
+                                                                    </span>
+                                                                </p>
+                                                                <p class="cc_sold_by">
+                                                                </p>
+                                                                <p class="savings">
+                                                                    <span class="cc_label">You Save</span>
+                                                                    <span class="value cc_value">$2.00</span>
+                                                                </p>
+                                                                <div class="cc_prt_tool_tip_div cc_prt_tool_tip_div_pdp">
+                                                                    <span class="cc_prt_tool_tip_text cc_prt_tool_tip_text_pdp" data-toggle="tooltip" title="Volume Pricing is pricing that applies for bulk purchases">
+                                                                    <i class="fa fa-info-circle cc_prt_tool_tip_icon"></i> Volume Pricing Available
+                                                                    </span>
+                                                                </div>
+                                                            </div>
+                                                            <hr>
+                                                        </div>
+                                                    </div>
+                                                    <div class="cc_product_pricing_tiersa1GB0000000KypwMAC">
+                                                        <div class="row cc_prt cc_prt_outer_row">
+                                                            <div class="col-xs-12 cc_prt_heading_label cc_prt_heading_label_div">
+                                                                <span class="cc_prt_heading_label cc_prt_heading_label_span">Pricing Tiers</span>
+                                                                <div>
+                                                                    <small class="collapsed" role="button" data-toggle="modal" data-target="#pricingModal">
+                                                                  View Pricing Table
+                                                                    </small>
+                                                                    <div class="modal fade" id="pricingModal" tabindex="-1" role="dialog" aria-labelledby="myModalLabel">
+                                                                      <div class="modal-dialog" role="document">
+                                                                        <div class="modal-content">
+                                                                          <div class="modal-header">
+                                                                            <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+                                                                            <h4 class="modal-title" id="myModalLabel">Volume and Term Discounting</h4>
+                                                                          </div>
+                                                                          <div class="modal-body">
+                                                                            <table class="table table-striped" style="overflow: scroll">
+                                                                                <thead>
+                                                                                    <tr>
+                                                                                        <th style="text-align: center">Quantity</th>
+                                                                                        <th style="text-align: center" colspan="2">10 - 19</th>
+                                                                                        <th style="text-align: center" colspan="2">20 - 50</th>
+                                                                                        <th style="text-align: center" colspan="2">51 - 100</th>
+                                                                                    </tr> 
+                                                                                </thead>
+                                                                                <tbody>
+                                                                                    <tr>
+                                                                                        <th scope="row"></th>
+                                                                                        <td>Upfront</td>
+                                                                                        <td>Recurring</td>
+                                                                                        <td>Upfront</td>
+                                                                                        <td>Recurring</td>
+                                                                                        <td>Upfront</td>
+                                                                                        <td>Recurring</td>
+                                                                                    </tr>
+                                                                                    <tr>
+                                                                                        <th scope="row">6 Months</th>
+                                                                                        <td>$100.00</td>
+                                                                                        <td>$200.00</td>
+                                                                                        <td>$300.00</td>
+                                                                                        <td>$400.00</td>
+                                                                                        <td>$100.00</td>
+                                                                                        <td>$200.00</td>
+                                                                                    </tr>
+                                                                                    <tr>
+                                                                                        <th scope="row">1 Year</th>
+                                                                                        <td>$150.00</td>
+                                                                                        <td>$250.00</td>
+                                                                                        <td>$350.00</td>
+                                                                                        <td>$450.00</td>
+                                                                                        <td>$150.00</td>
+                                                                                        <td>$250.00</td>
+                                                                                    </tr>
+                                                                                    <tr>
+                                                                                        <th scope="row">2 Years</th>
+                                                                                        <td>$250.00</td>
+                                                                                        <td>$350.00</td>
+                                                                                        <td>$450.00</td>
+                                                                                        <td>$550.00</td>
+                                                                                        <td>$250.00</td>
+                                                                                        <td>$350.00</td>
+                                                                                    </tr>
+                                                                                </tbody>
+                                                                            </table>
+                                                                            <div>
+                                                                                <div class="row form-group">
+                                                                                    <div class="col-xs-3">
+                                                                                        <label>Quantity</label>
+                                                                                        <input type="text" name="" class="form-control" value="1">
+                                                                                    </div>
+                                                                                    <div class="col-xs-5">
+                                                                                        <label>Term</label>
+                                                                                        <select name="" id="" class="form-control">
+                                                                                            <option value="">6 Month Subscription</option>
+                                                                                            <option value="">1 Year Subscription</option>
+                                                                                            <option value="">2 Year Subscription</option>
+                                                                                        </select>
+                                                                                    </div>
+                                                                                    <div class="col-xs-3">
+                                                                                        <label>Subtotal</label>
+                                                                                        <p>$550</p>
+                                                                                    </div>
+                                                                                </div>
+                                                                                <div class="row">
+                                                                                    <div class="col-xs-6">
+                                                                                        <button type="button" class="btn btn-primary">Add to Cart</button>
+                                                                                    </div>
+                                                                                </div>
+                                                                            </div>
+                                                                          </div>
+                                                                        </div>
+                                                                      </div>
+                                                                    </div>
+                                                                </div>
+                                                            </div>
+                                                            <div class="col-xs-12">
+                                                                <div class="cc_prt_div_outer cc_prt_div_outer_primary">
+                                                                    <div class="radio">
+                                                                      <label>
+                                                                        <input type="radio" name="optionsRadios" id="optionsRadios1" value="option1" checked>
+                                                                        No Subscription
+                                                                      </label>
+                                                                    </div>
+                                                                    <div class="radio">
+                                                                      <label>
+                                                                        <input type="radio" name="optionsRadios" id="optionsRadios2" value="option2">
+                                                                        6 Month Maintenance Plan
+                                                                      </label>
+                                                                    </div>
+                                                                    <div class="radio">
+                                                                      <label>
+                                                                        <input type="radio" name="optionsRadios" id="optionsRadios3" value="option2">
+                                                                        1 Year Maintenance Plan
+                                                                      </label>
+                                                                    </div>
+                                                                </div>
+                                                            </div>
+                                                        </div>
+                                                        <hr class="cc_prt_bottomhr">
+                                                    </div>
+                                                    <div class="row">
+                                                        <div class="col-md-12">
+                                                            <p class="pull-right">
+                                                                <span>Subtotal</span>
+                                                                <span>$550</span>
+                                                            </p>
+                                                        </div>
+                                                    </div>
+                                                    <div class="quantity_block gp_quantity_block cc_quantity_block">
+                                                        <div class="row cc_qty_control_row">
+                                                            <div class="col-md-12">
+                                                                <div class="form-horizontal">
+                                                                    <div class="form-group">
+                                                                        <label for="qty" class="col-sm-7 control-label cc_qty">Qty</label>
+                                                                        <div class="col-sm-5">
+                                                                            <input type="text" id="qty" name="qty" value="1" class="input-text entry plus_minus cc_entry form-control" maxlength="7">
+                                                                        </div>
+                                                                    </div>
+                                                                </div>
+                                                            </div>
+                                                        </div>
+                                                        <input type="hidden" name="qtyIncrement" value="1" class="item_qtyIncrement cc_item_qty_increment">
+                                                        <input type="hidden" name="qtySkipIncrement" value="" class="item_qtySkipIncrement cc_item_qty_skip_increment">
+                                                    </div>
+                                                    <div class="row">
+                                                        <div class="col-md-10 col-md-offset-2">
+                                                            <div class="wishButtons plus_minus cc_plus_minus pull-right">
+                                                                <div class="btn-group dropdown form-group">
+                                                                    <button type="button" class="btn btn-default btn-sm pickWish" data-id="a0IB0000004bQIgMAM">Add to Wishlist</button>
+                                                                    <button type="button" class="btn btn-default btn-sm dropdown-toggle" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                                                                    <span class="caret"></span>
+                                                                    <span class="sr-only">Toggle Dropdown</span>
+                                                                    </button>
+                                                                    <ul class="dropdown-menu" aria-labelledby="dropWish">
+                                                                        <li><a href="javascript:void(0);" class="pickWish" data-id="a0IB0000004bQIhMAM">Coffee Beans</a></li>
+                                                                        <li><a href="javascript:void(0);" class="pickWish" data-id="a0IB0000004bQIgMAM">Equipment</a></li>
+                                                                        <li role="separator" class="divider"></li>
+                                                                        <li>
+                                                                            <div class="row center-block">
+                                                                                <div class="col-xs-12">
+                                                                                    <label for="newWishList" class="sr-only">
+                                                                                        <p>Enter new template name</p>
+                                                                                    </label>
+                                                                                    <input id="newWishList" type="text" class="newListName form-control" placeholder="Name">
+                                                                                </div>
+                                                                            </div>
+                                                                        </li>
+                                                                        <li><a href="javascript:void(0);" class="pickWish" data-id="-1">Create Template</a></li>
+                                                                    </ul>
+                                                                </div>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                    <div class="row">
+                                                        <div class="col-md-8 col-md-offset-4">
+                                                            <div class="action cc_action">
+                                                                <button type="button" class="btn btn-default btn-sm addItem cc_add_item pull-right" data-sku="GDG-1" data-seller="">Add to Cart</button>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="row">
+                                            <div class="col-md-7 col-md-offset-5">
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="tabSection">
+                                    <div class="panel panel-default cc_panel cc_prod_detail_panel">
+                                        <div class="panel-body cc_body">
+                                            <div class="tabs_container cc_tabs_container cc_product_detail_container">
+                                                <ul class="nav nav-tabs cc_nav-tabs" id="myTab">
+                                                    <li role="presentation" class="active cc_li"><a href="https://win19ss-test1-165c68767ee-165fd4991b1.force.com/CapStore/ccrz__ProductDetails?viewState=DetailView&amp;cartID=f30401be-c9bc-4b85-a7fe-04ba2bf6d331&amp;portalUser=&amp;store=&amp;effectiveAccount=001B000000o2qB2IAI&amp;cclcl=en_US&amp;sku=GDG-1#secContentDescription_tabSec" data-toggle="tab">Details</a></li>
+                                                    <li role="presentation"><a href="https://win19ss-test1-165c68767ee-165fd4991b1.force.com/CapStore/ccrz__ProductDetails?viewState=DetailView&amp;cartID=f30401be-c9bc-4b85-a7fe-04ba2bf6d331&amp;portalUser=&amp;store=&amp;effectiveAccount=001B000000o2qB2IAI&amp;cclcl=en_US&amp;sku=GDG-1#secSpecs-All_tabSec" data-toggle="tab">Specs</a></li>
+                                                </ul>
+                                                <div class="tab-content cc_tab-content">
+                                                    <div role="tabpanel" class="tab-pane cc_tab-pane  active" id="secContentDescription_tabSec" active="">
+                                                        <p class="secContentDescription cc_loading">
+                                                            This pure glass, 8-cup coffeemaker to help you brew the perfect cup of coffee. It is made from non-porous Borosilicate glass, which will not absorb odors or chemical residues.
+                                                        </p>
+                                                    </div>
+                                                    <div role="tabpanel" class="tab-pane cc_tab-pane " id="secSpecs-All_tabSec">
+                                                        <p class="secSpecs-All cc_loading">
+                                                        <div class="nvRow nvGroupRow cc_nv_group_row">
+                                                            <p class="groupName cc_group_name">General</p>
+                                                            <div class="nvRow cc_nv_row row">
+                                                                <div class="col-xs-6">
+                                                                    <span class="name cc_name">Material</span>
+                                                                </div>
+                                                                <div class="col-xs-6">
+                                                                    <span class="value cc_value">Glass</span>
+                                                                </div>
+                                                            </div>
+                                                            <div class="nvRow cc_nv_row row">
+                                                                <div class="col-xs-6">
+                                                                    <span class="name cc_name">Grade</span>
+                                                                </div>
+                                                                <div class="col-xs-6">
+                                                                    <span class="value cc_value">Residential</span>
+                                                                </div>
+                                                            </div>
+                                                        </div>
+                                                        </p>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="widgetSection"></div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="container-fluid navbar-inverse cc_navbar-inverse">
+                <footer class="footer cc_footer">
+                    <div class="footerBrowser cc_footer_browser">
+                        <div class="row text-center cc_text-center">
+                            <div class="col-xs-3 cc_footer_col_left"></div>
+                            <div class="col-xs-6 cc_footer_col_center">
+                                <p></p>
+                                <!--******************************************************************************************-->
+                                <ul class="list-inline cc_list_inline">
+                                    <li class="small cc_small"><a href="http://www.cloudcraze.com/" class="navbar-link cc_footer_link" target="_blank">CloudCraze Home</a>&nbsp;</li>
+                                    <li class="small cc_small"><a href="http://www.cloudcraze.com/cloud-ecommerce-features/" class="navbar-link cc_footer_link" target="_blank">Product Information</a>&nbsp;</li>
+                                    <li class="small cc_small"><a href="http://www.cloudcraze.com/ecommerce-demo/" class="navbar-link cc_footer_link" target="_blank">View Cloud-Craze Demo</a>&nbsp;</li>
+                                    <li class="small cc_small"><a href="http://www.cloudcraze.com/ecommerce-website-builder/" class="navbar-link cc_footer_link" target="_blank">About US</a>&nbsp;</li>
+                                </ul>
+                            </div>
+                            <div class="col-xs-3 cc_footer_col_right"></div>
+                        </div>
+                        <div class="row cc_footer_logo_row">
+                            <div class="col-xs-12 cc_footer_logo_col">
+                                <img src="./Tiered Pricing for Subscriptions_files/ccrz_logo_h_reverse.png" class="center-block cc_footer_logo" height="50" width="auto" alt="CloudCraze Logo">
+                            </div>
+                        </div>
+                    </div>
+                </footer>
+                <ul class="nav pull-right scroll-top cc_scroll-top">
+                    <li><a href="https://win19ss-test1-165c68767ee-165fd4991b1.force.com/CapStore/ccrz__ProductDetails?viewState=DetailView&amp;cartID=f30401be-c9bc-4b85-a7fe-04ba2bf6d331&amp;portalUser=&amp;store=&amp;effectiveAccount=001B000000o2qB2IAI&amp;cclcl=en_US&amp;sku=GDG-1#" title="Scroll to top"><i aria-hidden="true" class="fa fa-chevron-up"></i><span class="sr-only">Scroll to top</span></a></li>
+                </ul>
+            </div>
+        </div>
+        <script type="text/javascript" src="../Bootstrap Starter/Starter Template for Bootstrap_files/jquery.min.js"></script>
+        <script type="text/javascript" src="../Bootstrap Starter/Starter Template for Bootstrap_files/bootstrap.min.js"></script>
+    </body>
+</html>
